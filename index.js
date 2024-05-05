@@ -32,7 +32,7 @@ const io = new Server(expressServer, {
 })
 
 io.on('connection', socket => {
-    console.log(`User ${socket.id} connected`)
+ 
 
     // Upon connection - only to user 
     socket.emit('message', buildMsg(ADMIN, "Welcome to Chat App!"))
