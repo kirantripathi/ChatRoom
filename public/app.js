@@ -1,6 +1,6 @@
-const socket = io('ws://localhost:3500')
+// const socket = io('ws://localhost:3500')
 
-// const socket = io('wss://chatroom-1-osqi.onrender.com/')
+const socket = io('wss://chatroom-1-osqi.onrender.com/');
 
 
 const msgInput = document.querySelector('#message')
